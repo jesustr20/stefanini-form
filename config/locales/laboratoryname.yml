@@ -1,0 +1,7 @@
+en:
+  enumerations:
+    laboratoryname:
+      genfar: 'Genfar'
+      gsk: 'Gsk'
+      hersil: 'Hersil'
+      farmaindustria: 'Farmaindustria'
