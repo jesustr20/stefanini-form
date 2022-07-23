@@ -32,6 +32,10 @@ module Api
         @laboratory ||= Lab.find(params[:id])
       end
 
+      def not_found
+        raise ActionController::RoutingError.new('Not Found')
+      end
+
       def permitted_params
         params.permit(:labname, :productname, :amount, :price, :code)
       end
